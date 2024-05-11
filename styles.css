@@ -39,7 +39,26 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Unbounded', cursive;
+    
 }
+#descripcion {
+    padding: 20px;
+    background-color: linear-gradient(180deg, #1875E9 0%, #041832 48.44%, #01080E 100%);
+    color: var(--color-secondary);
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    text-align: center;
+    font-size: x-large;
+  }
+  
+  #descripcion h1 {
+    color: #2c3e50;
+    margin-bottom: 10px;
+  }
+  
+  #descripcion p {
+    margin-bottom: 20px;
+  }
 
 .app__logo-figure {
     display: flex;
@@ -227,7 +246,6 @@ h1, h2, h3, h4, h5, h6 {
     visibility: hidden;
 }
 
-/* fim - toggle */
 
 /* Para Tablets */
 @media (max-width: 1024px) and (min-width: 768px) {

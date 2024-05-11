@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <!--agrego atributo enfoque para cambiar el fondo de mi HTML-->
 <html lang="esp" data-contexto="enfoque">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -17,6 +18,13 @@
     <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
+    <section id="descripcion">
+        <header class="header">
+            <h1>Tècnica para administrar tiempos de descanso</h1>
+            <p style="font-size: small;">* Esta aplicación está inpirada en la técnica Pomodoro creada por <a
+                href="https://es.wikipedia.org/wiki/T%C3%A9cnica_Pomodoro"></a>Francesco Cirillo.</p>
+        </header>
+    </section>
     <main class="app">
         <header class="app__header">
             <figure class="app__logo-figure"></figure>
@@ -24,8 +32,8 @@
         </header>
         <section class="app__section-banner-container">
             <h1 class="app__title">
-                Optimiza tu productividad,<br>
-                <strong class="app__title-strong">sumérgete en lo que importa.</strong>
+                Alcanza tus metas<br>
+                <strong class="app__title-strong">manteniéndote enfocado</strong>
             </h1>
             <figure class="app__image-figure">
                 <img class="app__image" src="/imagenes/enfoque.png" alt="">
@@ -35,13 +43,16 @@
             <div class="app__card">
                 <ul class="app__card-list">
                     <li class="app__card-list-item">
-                        <button data-contexto="enfoque" class="app__card-button app__card-button--enfoque active">Enfoque</button>
+                        <button data-contexto="enfoque" class="app__card-button app__card-button--enfoque active">Tiempo
+                            de trabajo</button>
                     </li>
                     <li class="app__card-list-item">
-                        <button data-contexto="short" class="app__card-button app__card-button--corto">Descanso corto</button>
+                        <button data-contexto="short" class="app__card-button app__card-button--corto">Descanso
+                            corto</button>
                     </li>
                     <li class="app__card-list-item">
-                        <button data-contexto="long" class="app__card-button app__card-button--largo">Descanso largo</button>
+                        <button data-contexto="long" class="app__card-button app__card-button--largo">Descanso
+                            largo</button>
                     </li>
                 </ul>
                 <div id="timer" class="app__card-timer"></div>
@@ -54,7 +65,7 @@
                     </li>
                     <li class="app__card-list-item">
                         <label class="app__card-list-label" for="alternar-musica">
-                            Música
+                            <p>Activá la música y disfruta de tu descanso</p>
                         </label>
                     </li>
                 </ul>
@@ -66,9 +77,38 @@
                 </div>
             </div>
         </section>
+        <section id="descripcion">
+            <h1>¿Cómo utilizar esta técnica</h1>
+            <p>1- Haz una lista de tareas pendientes y prepara un temporizador.</p>
+            <p>2- Configure el temporizador en 25 minutos y concéntrate en una tarea hasta que suene el temporizador.</p>
+            <p>3- Luego, tómate un descanso de 5 minutos para refrescar tu concentración.</p>
+            <p>4- Después de 4 descansos cortos, toma un descanso largo de 15 minutos.</p>
+            <p>5- Repite el proceso hasta que hayas completado todas tus tareas.</p>
+            <br>
+            <p>Obtené más información sobre ésta técnica aquí abajo 😉 <a href="#descripcion"></a></p>
+
+            <h1>¿Qué es la Técnica Pomodoro?</h1>
+            <p>La Técnica Pomodoro es un método de administración del tiempo para incrementar tu productividad.
+                Utiliza este temporizador para dividir el tiempo en intervalos de trabajo y descansos.</p>
+            <p>El método se basa en la idea de que las pausas frecuentes pueden mejorar la agilidad mental.</p>
+            <br>
+            <h1>¿Quienes usan la Técnica Pomodoro?</h1>
+            <p>La Técnica Pomodoro es usada por personas que necesitan concentrarse en sus actividades para lograr
+                ciertos objetivos.</p>
+            <br>
+            <h1>Un poco de ciencia</h1>
+            <p>El intervalo de atención es la capacidad de concentrarnos en una sola tarea, mientras mayor sea nuestra
+                concentración, más fácil se nos hará realizarla.
+                Estudios han estimado que este intervalo dura 20 minutos aproximadamente.</p>
+           
+                 
+
+
+        </section>
+
         <footer class="app__footer">
             <p class="app__footer-text">
-                 Desarrollado por Carla Laya para el programa Alura Latam - Las imágenes son creadas con IA -
+                Desarrollado por Carla Laya para el programa Alura Latam - Las imágenes son creadas con IA -
             </p>
         </footer>
     </main>
