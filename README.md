@@ -1,9 +1,7 @@
 🚀 About Me
 Mi nombre es Carla Laya, soy desarrolladora Web Full Stack realizando proyectos freelance.
 
-PROYECTO
-Temporizador
-La aplicacion permite establecer el tiempo de descando, segun el contexto que se desee.  Puede activar musica si se desea, con control de volumen.
+- La aplicacion permite establecer el tiempo de descando, ya sea para establecer tiempos de trabajo o estudio.  Puede activar musica si se desea, con control de volumen.
 
 
 Authors
